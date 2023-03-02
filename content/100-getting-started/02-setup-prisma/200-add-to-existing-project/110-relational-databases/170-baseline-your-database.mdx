@@ -189,7 +189,7 @@ Review the SQL migration file to ensure everything is correct.
 Next, mark the migration as applied using `prisma migrate resolve` with the `--applied` argument.
 
 ```terminal
-npx prisma migrate resolve --applied 0_init
+npx prisma migrate resolve --applied "0_init"
 ```
 
 The command will mark `0_init` as applied by adding it to the `_prisma_migrations` table.
